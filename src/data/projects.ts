@@ -38,8 +38,8 @@ export const projects: Project[] = [
         ],
         technologies: ['Python', 'FastAPI', 'React', 'PostgreSQL', 'Tailwind CSS'],
         featured: true,
-        status: 'active',
-        year: 2024,
+        status: 'development',
+        year: 2025,
     },
     {
         id: '2',
@@ -67,7 +67,7 @@ export const projects: Project[] = [
         technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'Tailwind CSS'],
         featured: true,
         status: 'active',
-        year: 2024,
+        year: 2025,
     },
     {
         id: '3',
@@ -92,7 +92,7 @@ export const projects: Project[] = [
         technologies: ['React', 'TypeScript', 'FastAPI', 'PostgreSQL', 'Tailwind CSS'],
         featured: true,
         status: 'active',
-        year: 2024,
+        year: 2025,
     },
     {
         id: '4',
@@ -119,7 +119,7 @@ export const projects: Project[] = [
         technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
         featured: true,
         status: 'active',
-        year: 2024,
+        year: 2025,
     },
 ];
 

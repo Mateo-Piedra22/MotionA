@@ -132,9 +132,26 @@ export default function RootLayout({
     return (
         <html lang="en" suppressHydrationWarning>
             <head>
+                {/* Google Analytics 4 */}
+                <script
+                    async
+                    src="https://www.googletagmanager.com/gtag/js?id=G-WMFMY5RD4B"
+                />
+                <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                            window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+                            gtag('config', 'G-WMFMY5RD4B');
+                        `,
+                    }}
+                />
+
                 {/* Preconnect to external resources for performance */}
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+                <link rel="preconnect" href="https://www.googletagmanager.com" />
 
                 {/* DNS Prefetch for subdomains */}
                 <link rel="dns-prefetch" href="https://ironhub.motiona.xyz" />
